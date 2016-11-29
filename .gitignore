@@ -218,3 +218,4 @@ pip-log.txt
 /packages/
 !src/XamarinDevDays.BackEnd/XamarinDevDays.BackEnd/packages/repositories.config
 src/XamarinDevDays.BackEnd/XamarinDevDays.BackEnd/packages/
+src/FormApp/packages/
