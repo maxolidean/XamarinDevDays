@@ -104,6 +104,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\lagash-xamarindevdays - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\lagash-xamarindevdays - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
