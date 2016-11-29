@@ -3,12 +3,14 @@ using System;
 using UIKit;
 using System.Collections.Generic;
 using FormApp.Model;
+using System.Threading.Tasks;
 
 namespace FormApp
 {
     public partial class UserListTableViewController : UITableViewController
     {
 		public ViewModel ViewModel = new ViewModel();
+		LoadingOverlay loadingOverlay;
 
 		public UserListTableViewController (IntPtr handle) : base (handle)
         {
@@ -17,12 +19,25 @@ namespace FormApp
 		public async override void ViewDidLoad()
 		{
 			base.ViewDidLoad();
+			await LoadUsers();
+		}
+
+		public async Task LoadUsers()
+		{
+			var bounds = UIScreen.MainScreen.Bounds;
+
+			loadingOverlay = new LoadingOverlay(bounds);
+			View.Add(loadingOverlay);
+
 			await ViewModel.LoadUsers();
 
 			Title = "User List";
 
 			this.MainTableView.Source = new UserTableSource(ViewModel.Users);
 			this.MainTableView.ReloadData();
+			this.MainTableView.SeparatorStyle = UITableViewCellSeparatorStyle.SingleLine;
+
+			loadingOverlay.Hide();
 		}
     }
 

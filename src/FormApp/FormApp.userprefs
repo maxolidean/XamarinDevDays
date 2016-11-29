@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{AA095116-66A1-4F98-BFA5-7F2091BC1B2B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FormApp/InputFormViewController.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="FormApp/Main.cs" Line="12" Column="1" />
-      <File FileName="FormApp/InputFormViewController.cs" Line="39" Column="4" />
+      <File FileName="FormApp/InputFormViewController.cs" Line="42" Column="4" />
       <File FileName="FormApp/ViewModel.cs" Line="37" Column="5" />
       <File FileName="FormApp/UserTableViewCell.cs" Line="16" Column="64" />
       <File FileName="FormApp/ViewController.cs" Line="19" Column="23" />
+      <File FileName="FormApp/UserListTableViewController.cs" Line="38" Column="81" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

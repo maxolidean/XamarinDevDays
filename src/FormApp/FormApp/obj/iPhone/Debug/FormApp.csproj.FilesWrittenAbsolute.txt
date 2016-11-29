@@ -14,3 +14,17 @@
 /Users/sergioc/Projects/FormApp/FormApp/bin/iPhone/Debug/System.Net.Http.Extensions.dll
 /Users/sergioc/Projects/FormApp/FormApp/bin/iPhone/Debug/System.Net.Http.Primitives.dll
 /Users/sergioc/Projects/FormApp/FormApp/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/obj/iPhone/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/obj/iPhone/Debug/build-iphone6.2-9.3.3/optimized/
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/FormApp.exe.mdb
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/FormApp.exe
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/obj/iPhone/Debug/FormApp.exe
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/obj/iPhone/Debug/FormApp.exe.mdb
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/Microsoft.Practices.ServiceLocation.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/GalaSoft.MvvmLight.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/GalaSoft.MvvmLight.Extras.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/GalaSoft.MvvmLight.Platform.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/System.Net.Http.Extensions.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/System.Net.Http.Primitives.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/bin/iPhone/Debug/Newtonsoft.Json.dll
+/Users/sergioc/Github/XamarinDevDays/src/FormApp/FormApp/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items

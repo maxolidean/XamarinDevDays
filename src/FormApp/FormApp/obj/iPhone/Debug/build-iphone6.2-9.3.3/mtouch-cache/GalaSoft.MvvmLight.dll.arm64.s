@@ -56717,7 +56717,7 @@ _mono_aot_file_info:
 	.long 744,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 248,164,242,30,235,13,112,38,144,100,76,223,41,245,90,144
+	.byte 216,69,53,179,31,237,93,219,80,126,193,153,121,135,149,254
 	.globl _mono_aot_module_GalaSoft_MvvmLight_info
 	.align 3
 _mono_aot_module_GalaSoft_MvvmLight_info:

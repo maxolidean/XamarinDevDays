@@ -24957,7 +24957,7 @@ ldr x15, [x16, #2368]
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9442a31
@@ -30789,7 +30789,7 @@ ldr x15, [x16, #2368]
 .word 0xf9402c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9440631
@@ -41469,7 +41469,7 @@ bl _p_532
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9411631
@@ -41647,7 +41647,7 @@ bl _p_536
 .word 0xaa0303e0
 .word 0xaa1903e1
 .word 0xf9400063
-.word 0xf941b470
+.word 0xf941b870
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf943d631
@@ -41829,7 +41829,7 @@ bl _p_539
 .word 0xaa0303e0
 .word 0xaa1603e1
 .word 0xf9400063
-.word 0xf941c070
+.word 0xf941c470
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf946a631
@@ -42641,7 +42641,7 @@ bl _p_542
 .word 0xaa0303e0
 .word 0xaa1803e1
 .word 0xf9400063
-.word 0xf941b470
+.word 0xf941b870
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9436631
@@ -42878,7 +42878,7 @@ bl _p_545
 .word 0xf9404ba3
 .word 0xaa0303e0
 .word 0xf9400063
-.word 0xf941c070
+.word 0xf941c470
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9470e31
@@ -42898,7 +42898,7 @@ bl _p_545
 .word 0xf9402c01
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9475e31
@@ -65438,7 +65438,7 @@ ldr x15, [x16, #2368]
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf944aa31
@@ -73102,7 +73102,7 @@ ldr x15, [x16, #2368]
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf94027b1
 .word 0xf9449231
@@ -84439,7 +84439,7 @@ bl _p_532
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9414e31
@@ -84638,7 +84638,7 @@ bl _p_1362
 .word 0xaa0303e0
 .word 0xaa1803e1
 .word 0xf9400063
-.word 0xf941b470
+.word 0xf941b870
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9446231
@@ -84841,7 +84841,7 @@ bl _p_1363
 .word 0xaa0303e0
 .word 0xaa1503e1
 .word 0xf9400063
-.word 0xf941c070
+.word 0xf941c470
 .word 0xd63f0200
 .word 0xf9402bb1
 .word 0xf9478631
@@ -85857,7 +85857,7 @@ bl _p_1372
 .word 0xaa0303e0
 .word 0xaa1603e1
 .word 0xf9400063
-.word 0xf941b470
+.word 0xf941b870
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9442631
@@ -86195,7 +86195,7 @@ bl _p_1377
 .word 0xaa0303e0
 .word 0xaa1303e1
 .word 0xf9400063
-.word 0xf941c070
+.word 0xf941c470
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf9496231
@@ -86221,7 +86221,7 @@ bl _p_1377
 .word 0xf9400001
 .word 0xaa0103e0
 .word 0xf9400021
-.word 0xf941b030
+.word 0xf941b430
 .word 0xd63f0200
 .word 0xf9402fb1
 .word 0xf949ca31
@@ -116628,7 +116628,7 @@ _mono_aot_file_info:
 	.long 1048,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 29,82,83,73,117,173,132,143,242,128,146,212,209,100,83,244
+	.byte 80,47,63,189,52,130,203,205,172,108,112,220,189,208,192,88
 	.globl _mono_aot_module_GalaSoft_MvvmLight_Platform_info
 	.align 3
 _mono_aot_module_GalaSoft_MvvmLight_Platform_info:
