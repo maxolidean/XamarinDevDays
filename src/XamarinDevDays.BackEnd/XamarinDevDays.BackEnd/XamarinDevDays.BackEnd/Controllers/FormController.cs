@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Web.Http;
-using System.Web.Http.Results;
+using NoRepo;
 using XamarinDevDays.BackEnd.Models;
 
 namespace XamarinDevDays.BackEnd.Controllers
@@ -17,24 +12,19 @@ namespace XamarinDevDays.BackEnd.Controllers
         [Route("")]
         public async Task<IHttpActionResult> Get()
         {
-            var form = new FormModel
-            {
-                Email = "ivanc@lagash.com",
-                Name = "Ivan",
-                LastName = "Caro"
-            };
+            var formModel = new FormModel();
+            var data = await formModel.GetAll().ConfigureAwait(false);
 
-            await form.Create().ConfigureAwait(false);
-
-            var data = form.GetAll2();
             return Ok(data);
         }
 
         [HttpPost]
         [Route("")]
-        public void Post([FromBody]FormModel form)
+        public async Task<IHttpActionResult> Post([FromBody]FormModel form)
         {
-           
+            var id = await form.Create().ConfigureAwait(false);
+        
+            return Ok(id);
         }
     }
 }

@@ -4,10 +4,9 @@ using System.Threading.Tasks;
 using NoRepo;
 
 namespace XamarinDevDays.BackEnd.Models
-{
+{ 
     public class FormModel:  DocumentBase<FormModel>
     {
-   
         private static string key = "gEWqPfpodjdglR455bXU4RbtAzAYWHUpR5ZveZt8mZfpWzCji1x52uR3hNhQsmrxpWDLB3kl6RfBjtNUrqoppA==";
         private static string endpoint = "https://lagash-xamarindevdays.documents.azure.com:443/";
         private static string dbName = "Lab";
@@ -21,13 +20,11 @@ namespace XamarinDevDays.BackEnd.Models
             return idReturn;
         }
 
-        public async Task<IEnumerable<FormModel>> GetAll2()
+        public new async Task<IEnumerable<FormModel>> GetAll()
         {
             var repo = new DocumentDbRepo(endpoint, key, dbName, collection);
-            var data = await repo.Where<FormModel>(c => c.LastName.Length > 0);
-
-            var data2 = await GetAll().ConfigureAwait(false);
-
+            var data = await repo.Where<FormModel>(model => model.id != "");
+        
             return data;
         }
 
